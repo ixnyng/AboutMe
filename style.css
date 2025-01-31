@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #FFCACC;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 130px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD0D0; 
+    transform: scale(1.1);
+}
+
+/* About Me Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+}
+
+.about-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 3%; 
+    margin-right: 70px;
+}
+
+.about-text h2 {
+    margin-bottom: 10px;
+    color: #E5989B;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills {
+    background: #F5EEE6;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.skills h2{
+   color: #E5989B;
+}
+
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.skills ul li {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hobbies Section */
+.hobbies {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hobbies h2{
+    color: #E5989B;
+}
+
+.hobby-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hobby {
+    width: 30%;
+    background: #F5EEE6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hobby {
+    width: 30%;
+    background: #F5EEE6;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.hobby:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.hobby h3 {
+    margin-bottom: 10px;
+    color: #E5989B;
+}
+
+/* Contact Section */
+.contact {
+    background: #F5EEE6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #E5989B;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #E6A4B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.contact button:hover {
+    background-color: #D68C9D; 
+    transform: translateY(-2px); 
+}
+
+/* Footer */
+footer {
+    background: #FFCACC;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
